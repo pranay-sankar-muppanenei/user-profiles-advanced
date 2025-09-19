@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* index.css */
+.action-icon {
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.action-icon.edit:hover {
+  color: #1677ff; /* Ant Design blue */
+}
+
+
